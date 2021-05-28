@@ -7,7 +7,12 @@
 			"files": {
 				"collect_list": [
 					{
-						"file_path": "//home/ec2-user/environment/cw-logs-lab/logs/test.log",
+						"file_path": "//home/ec2-user/environment/cw-logs/logs/my-app.log",
+						"log_group_name": "p66-my-app.log",
+						"log_stream_name": "{instance_id}"
+					},
+					{
+						"file_path": "//home/ec2-user/environment/cw-logs/logs/test.log",
 						"log_group_name": "p66-test.log",
 						"log_stream_name": "{instance_id}"
 					}

@@ -1,1 +1,1 @@
-/opt/aws/amazon-cloudwatch-agent/logs/amazon-cloudwatch-agent.log
+tail -100f /opt/aws/amazon-cloudwatch-agent/logs/amazon-cloudwatch-agent.log
