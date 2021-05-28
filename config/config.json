@@ -1,0 +1,18 @@
+{
+	"agent": {
+		"run_as_user": "root"
+	},
+	"logs": {
+		"logs_collected": {
+			"files": {
+				"collect_list": [
+					{
+						"file_path": "//home/ec2-user/environment/cw-logs-lab/logs/test.log",
+						"log_group_name": "p66-test.log",
+						"log_stream_name": "{instance_id}"
+					}
+				]
+			}
+		}
+	}
+}
